@@ -1,0 +1,35 @@
+#legend: VERBd|VERBed|VERBs|VERBobj|VERBing|VERBn
+break|broken|breaks|broke|breaking|break
+hack|hacked|hacks|got hacked|hacking|hack
+fix|fixed|fixes|got fixed|fixing|fix
+attack|attacked|attacks|got attacked|attacking|attack
+stop|stopped|stops|stopped|stopping|stop
+start|started|starts|started|starting|start
+jam|jammed|jams|jammed|jamming|jam
+trace|traced|traces|got traced|tracing|trace
+install|installed|installs|got installed|installing|installation
+uninstall|uninstalled|uninstalls|got uninstalled|uninstalling|uninstallation
+schedule|scheduled|schedules|got scheduled|scheduling|schedule
+initialise|initialised|inialises|initialised|initialising|initialisation
+overflow|overflowed|overflows|overflowed|overflowing|overflow
+overload|overloaded|overloads|overloaded|overloading|overload
+encapsulate|encapsulated|encapsulates|got encapsulated|encapsulating|encapsulation
+encrypt|encrypted|encrypts|got encrypted|encrypting|encryption
+decrypt|decrypted|decrypts|got decrypted|decrypting|decryption
+steal|stolen|steals|got stolen|stealing|theft attack
+kill|killed|kills|got killed|killing|kill move
+fry|fried|fries|fried|frying|inflammation
+crack|cracked|cracks|got cracked|cracking|crack
+clone|cloned|clones|got cloned|cloning|clone
+mask|masked|masks|got masked|masking|mask
+infiltrate|infiltrated|infiltrates|got infiltrated|infiltrating|infiltration
+bypass|bypassed|bypasses|got bypassed|bypassing|bypass
+reroute|rerouted|reroutes|got rerouted|rerouting|reroute
+power|powered|powers|got powered|powering|power surge
+power up|powered up|powers up|powered up|powering up|power-up
+power down|powered down|powers down|powered down|powering down|power-down
+speed up|sped up|speeds up|sped up|speeding up|accelleration
+slow down|slowed down|slows down|slowed down|slowing down|slowdown
+configure|configured|configures|got configured|configuring|configuration
+reconfigure|reconfigured|reconfigures|got reconfigured|reconfiguring|reconfiguration
+upscale|upscaled|upscales|got upscaled|upscaling|upscale

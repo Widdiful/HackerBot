@@ -1,0 +1,12 @@
+Nouns:
+	NOUNd noun in regular, dictionary form
+	NOUNa noun prefixed with a/an
+	NOUNds noun in plural form
+	
+Verbs:
+	VERBd verb in regular, dictionary form (I hack the computer)
+	VERBed verb in past tense (I hacked the computer)
+	VERBs verb in present tense (He hacks the computer)
+	VERBobj verb for when the noun is the object of the sentence (The computer got hacked)
+	VERBing verb in present progressive (I am hacking the computer)
+	VERBn verb in noun form (I got the computer with a hack)
