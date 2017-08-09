@@ -36,3 +36,4 @@ upscale|upscaled|upscales|got upscaled|upscaling|upscale
 input|inputted|inputs|got inputted|inputting|input
 output|outputted|outputs|got outputted|outputting|output
 print|printed|prints|got printed|printing|print
+clear|cleared|clears|got cleared|clearing|clear

@@ -44,17 +44,19 @@ def doVerbs(str):
     verbs.pop(0)
     with open("swears.txt") as f:
         swears = [x.strip('\r\n') for x in f.readlines()]
-    verbs.pop(0)
+    swears.pop(0)
     punct = [".", ",", "!"]
     p = inflect.engine()
+    result = str
     
     # regex shit i dont fucking know
-    rep = {"VERBd": random.choice(verbs).split("|")[0], "VERBed": random.choice(verbs).split("|")[1], "VERBs": random.choice(verbs).split("|")[2], "VERBobj": random.choice(verbs).split("|")[3], "VERBing": random.choice(verbs).split("|")[4], "VERBn": random.choice(verbs).split("|")[5], "SWEARd": random.choice(swears).split("|")[0], "SWEARed": random.choice(swears).split("|")[1], "SWEARs": random.choice(swears).split("|")[2], "SWEARing": random.choice(swears).split("|")[3]}
-    result = str.replace("a VERBn", p.a(random.choice(verbs).split("|")[5]))
-    
-    pattern = re.compile("|".join(rep.keys()))
-    result = pattern.sub(lambda m: rep[re.escape(m.group(0))], result)
-    result = result.replace(".", random.choice(punct))
+    for i in str.split(' '):
+        rep = {"VERBd": random.choice(verbs).split("|")[0], "VERBed": random.choice(verbs).split("|")[1], "VERBs": random.choice(verbs).split("|")[2], "VERBobj": random.choice(verbs).split("|")[3], "VERBing": random.choice(verbs).split("|")[4], "VERBn": random.choice(verbs).split("|")[5], "SWEARd": random.choice(swears).split("|")[0], "SWEARed": random.choice(swears).split("|")[1], "SWEARs": random.choice(swears).split("|")[2], "SWEARing": random.choice(swears).split("|")[3]}
+        result = result.replace("a VERBn", p.a(random.choice(verbs).split("|")[5]))
+        
+        pattern = re.compile("|".join(rep.keys()))
+        result = pattern.sub(lambda m: rep[re.escape(m.group(0))], result, count=1)
+        result = result.replace(".", random.choice(punct))
     return result
     
 while True:
