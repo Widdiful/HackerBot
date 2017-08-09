@@ -72,12 +72,13 @@ while True:
         while not "NOUN" in curSentence and hasNoun == False:
             curSentence = random.choice(sentences)
         sentences.remove(curSentence)
+        if "NOUN" in curSentence:
+            hasNoun = True
         
         # replace tags and generates punctuation
         for word in curSentence.split():
             curSentence = curSentence.replace("NOUNa", p.a(makeWord()), 1)
             curSentence = curSentence.replace("NOUNd", makeWord(), 1)
-            hasNoun = True
         curSentence = doVerbs(curSentence)
         if phrase.endswith(", "):
             phrase += curSentence + " "

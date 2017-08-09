@@ -33,3 +33,6 @@ slow down|slowed down|slows down|slowed down|slowing down|slowdown
 configure|configured|configures|got configured|configuring|configuration
 reconfigure|reconfigured|reconfigures|got reconfigured|reconfiguring|reconfiguration
 upscale|upscaled|upscales|got upscaled|upscaling|upscale
+input|inputted|inputs|got inputted|inputting|input
+output|outputted|outputs|got outputted|outputting|output
+print|printed|prints|got printed|printing|print

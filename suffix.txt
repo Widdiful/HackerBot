@@ -14,8 +14,8 @@ X
 spam
 width
 map
-Chip
-Cluster
+chip
+cluster
 space
 base
 core
@@ -41,7 +41,7 @@ soft
 server
 source
 top
-Mode
+mode
 engine
 suite
 card
@@ -67,3 +67,5 @@ mainframe
 network
 subnet
 core
+process
+processor
