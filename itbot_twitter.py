@@ -74,6 +74,7 @@ def main():
                       access_token_key=accKey,
                       access_token_secret=accSec)
         now = datetime.datetime.now()
+        timestamp = ("[" + str(now.hour) + ":" + str(now.minute) + "]")
         if str(now.second) == '0':
             if str(now.minute) == '0':
                 with open("sentences.txt") as f:
@@ -109,8 +110,10 @@ def main():
                     try:
                         api.PostUpdate(phrase)
                     except:
+                        print (timestamp + " twitter api error. retrying...")
                         pass
                     else:
+                        print (timestamp + " tweeted: " + phrase)
                         time.sleep(1)
 
 main()
