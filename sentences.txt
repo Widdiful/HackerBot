@@ -100,7 +100,6 @@ NOUNd has reached maximum VERBn levels.
 looks like my NOUNd has VERBd his NOUNd.
 a VERBn.
 it's VERBing.
-it VERBed.
 this little baby VERBs every NOUNd in a 10-mile radius.
 his NOUNd VERBobj.
 I've never seen a VERBn like this.
@@ -113,3 +112,5 @@ could he be working with SkyWeb?
 he fell for it!
 Nexus, I thought we'd never meet again.
 this looks like the work of my nemesis, Nexus.
+this is the power of the digital underworld.
+it's a cyber revolution, baby!

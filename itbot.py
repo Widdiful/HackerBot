@@ -69,7 +69,7 @@ while True:
         curSentence = random.choice(sentences)
         
         # ensures that at least the first sentence has a noun to avoid boring results
-        while not "NOUN" in curSentence and hasNoun == False:
+        while not "NOUN" in curSentence and hasNoun == False and i == sentencesNo - 1:
             curSentence = random.choice(sentences)
         sentences.remove(curSentence)
         if "NOUN" in curSentence:
