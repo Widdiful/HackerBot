@@ -12,13 +12,7 @@ def makeWord():
     with open("letters.txt") as f:
         letters = [x.strip('\r\n') for x in f.readlines()]
 
-    if random.randint(0,1) == 0:
-        # proper noun jargon
-        if random.randint(0,1) == 0:
-            result = random.choice(prefix) + random.choice(suffix).title()
-        else:
-            result = random.choice(prefix) + " " + random.choice(suffix).title()
-    else:
+    if random.randint(0,2) == 0:
         # acronym jargon
         result = ""
         for x in range(0, random.randint(3,4)):
@@ -34,7 +28,13 @@ def makeWord():
         # add jargon suffix
         if random.randint(0,1) == 0:
             result += " " + random.choice(suffix).title()
-    result = result.replace("  "," ").replace("i ", "i").replace("- ", "-")
+    else:
+        # proper noun jargon
+        if random.randint(0,2) == 0:
+            result = random.choice(prefix) + " " + random.choice(suffix).title()
+        else:
+            result = random.choice(prefix) + random.choice(suffix).title()
+    result = result.replace("  "," ").replace("i ", "i").replace("- ", "-").replace("Mal ", "Mal")
     return result
     
 def doVerbs(str):
