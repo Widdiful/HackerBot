@@ -76,7 +76,7 @@ def main():
                       access_token_key=accKey,
                       access_token_secret=accSec)
         now = datetime.datetime.now()
-        timestamp = ("[" + str(now.hour) + ":" + str(now.minute) + "]")
+        timestamp = "[%02d:%02d]" % (now.hour, now.minute)
         if str(now.second) == '0':
             if str(now.minute) == '0':
                 with open("sentences.txt") as f:
